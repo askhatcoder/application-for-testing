@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="620.0" style="-fx-background-color: #4DABF5;" stylesheets="@../css/about.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.quizappfx.controllers.AboutController">
+    <children>
+        <HBox alignment="BOTTOM_CENTER" layoutX="39.0" layoutY="420.0" prefHeight="42.0" prefWidth="514.0" spacing="5.0" />
+      <ImageView fitHeight="411.0" fitWidth="475.0" layoutX="105.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <FontAwesomeIconView fill="WHITE" glyphName="GITHUB" layoutX="284.0" layoutY="307.0" onMouseClicked="#goGithub" size="50" wrappingWidth="54.0" />
+      <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" layoutX="586.0" layoutY="35.0" onMouseClicked="#btnClose" size="25" />
+    </children>
+</AnchorPane>
